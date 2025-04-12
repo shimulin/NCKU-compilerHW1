@@ -1,0 +1,3 @@
+[console_scripts]
+judge = local_judge.judge:main
+ta_judge = local_judge.ta_judge:main
