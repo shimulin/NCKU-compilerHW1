@@ -1,8 +1,0 @@
-#!/home/shimulin/113-2-NCKU-CompilerHW1/compiler/bin/python3
-# -*- coding: utf-8 -*-
-import re
-import sys
-from local_judge.ta_judge import main
-if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
-    sys.exit(main())
